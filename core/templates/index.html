@@ -1,14 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
   <title>Django 1 - Index</title>
 </head>
 
 <body>
 
   <h1>Index</h1>
+
+  <img src="{% static 'images/django.png' %}" alt="Django Pony">
 
   <h2>{{ curso }}</h2>
 
@@ -32,6 +36,10 @@
     </tbody>
   </table>
 
+  <button onclick="teste()">Clique em mim</button>
+
+
+  <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 </body>
 
 </html>

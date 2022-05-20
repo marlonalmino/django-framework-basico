@@ -27,7 +27,7 @@ SECRET_KEY = '66*^%mr8h-g8u%wbbn%p^v&567@b4_(#uwvfr8ay_y8q$b(s4h'
 # DEBUG = False // Produção
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django1-mal.herokuapp.com']
 
 
 # Application definition
